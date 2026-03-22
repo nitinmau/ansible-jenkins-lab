@@ -1,4 +1,5 @@
-- hosts: localhost
+- name: install jenkins 
+  hosts: lab
   become: yes
   roles:
     - ansible-role-jenkins
